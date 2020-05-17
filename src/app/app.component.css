@@ -1,0 +1,211 @@
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .spacer {
+    flex: 0.5;
+  }
+
+  .toolbar {
+    position: absolute;
+    border-radius: 4px;
+    top: 0;
+    left: 160px; 
+    right: 160px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-image: url(https://blog.lunarlogic.io/images/auroral-with-stars.png);
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+  .content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+
+  .card {
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    height: 40px;
+    width: 200px;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+  }
+
+
+  .card.card-small {
+    height: 16px;
+    width: 168px;
+  }
+
+  .card.highlight-card {
+    background-image: url(https://image.shutterstock.com/image-illustration/aurora-borealis-abstract-background-northern-260nw-226617043.jpg);
+    color: white;
+    font-weight: 600;
+    border: none;
+    width: auto;
+    min-width: 30%;
+    position: relative;
+  }
+
+  .card.card.highlight-card span {
+    margin-left: 2px;
+  }
+
+
+  footer {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    width: 100%;
+    color: gold;
+  }
+
+  footer marquee{
+  background-color: black;
+  color: gold;
+  }
+
+  svg#clouds {
+    position: fixed;
+    bottom: -160px;
+    left: -230px;
+    z-index: -10;
+    width: 1920px;
+    color: skyblue;
+  }
+  .leftsidenav {
+  height: 100%;/* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 5; /* Stay on top */
+  top: 60px; /* Stay at the top */
+  left: 0;
+  background-image: url(https://storage.googleapis.com/blog-images-backup/0*I-sI3u34g0ydRqyA); 
+  overflow-x: hidden; /* Disable horizontal scroll */
+    /*padding-top: 15px;*/
+  }
+
+  .leftsidenav:hover {
+  background-image: url(https://www.ajaymalhotra.in/wp-content/uploads/2019/09/color-smoke-bomb.jpg);
+  display: block;
+  }
+
+  #text0{
+    color:white;
+    padding-top: 90px;
+  }
+
+  .rightsidenav {
+  height: 100%;/* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 5; /* Stay on top */
+  top: 60px; /* Stay at the top */
+  right: 0;
+  background-image: url(https://www.ajaymalhotra.in/wp-content/uploads/2019/09/color-smoke-bomb.jpg);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  }
+
+  .rightsidenav:hover {
+  background-image: url(https://storage.googleapis.com/blog-images-backup/0*I-sI3u34g0ydRqyA);
+  display: block;
+  }
+
+  #text1{
+    text-align:center;
+    color:#eee;
+  }
+  #text2{
+    padding-top:75px;
+    color:#eee;
+    text-align:center;
+  }
+  #text3{
+    padding-top:75px;
+    color:#eee;
+    text-align: center;
+  }
+
+  
+  table {
+  font-family: arial, sans-serif;
+  /* border-collapse:collapse; */
+    width:95%;
+  }
+
+  td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  width:450px;
+  }
+
+.fa {
+  padding: 5px;
+  font-size: 10px;
+  width: 12px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 20%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
